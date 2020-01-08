@@ -1,7 +1,7 @@
 FlutterMyCard
 
 My personal card. Based on the course by Angela Yu.
-![Result](myPage.png)
+![Result](https://github.com/aopoka/FlutterMyCard/blob/master/myPage.PNG)
 
 ![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
