@@ -22,11 +22,13 @@ class MyApp extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Padding(
-                  padding: const EdgeInsets.only(right: 15.0, bottom: 55.0),
-                  child: Image(
-                    height: 110.0,
-                    image: AssetImage('images/bird.png'),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 15.0, bottom: 55.0),
+                    child: Image(
+                      height: 110.0,
+                      image: AssetImage('images/bird.png'),
+                    ),
                   ),
                 ),
                 Padding(
@@ -40,11 +42,13 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 15.0, bottom: 55.0),
-                  child: Image(
-                    height: 110.0,
-                    image: AssetImage('images/birdCopy.png'),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 15.0, bottom: 55.0),
+                    child: Image(
+                      height: 110.0,
+                      image: AssetImage('images/birdCopy.png'),
+                    ),
                   ),
                 ),
               ],
